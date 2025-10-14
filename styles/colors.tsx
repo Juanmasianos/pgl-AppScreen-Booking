@@ -7,6 +7,7 @@ export const colors = {
     discountBackground: '#F1FEF5',
     discountText: '#1A743E',
 
+    headerButtons: '#0D459A',
     searchButton: '#006CE3'
 
 }

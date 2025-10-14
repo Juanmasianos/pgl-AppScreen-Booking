@@ -4,8 +4,7 @@ import HeaderBackground from './HeaderBackground'
 
 export default function Header() {
   return (
-    <HeaderBackground>
-    </HeaderBackground>
+    <HeaderBackground />
   )
 }
 

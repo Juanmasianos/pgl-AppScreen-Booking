@@ -1,13 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import HeaderBackground from './components/header/HeaderBackground';
+import Header from './components/header/Header';
 
 
 export default function App() {
   return (
     <>
-      <HeaderBackground>
-      </HeaderBackground>
+      <Header />
       <View style={styles.body}>
       </View>
       <View style={styles.footer}>
