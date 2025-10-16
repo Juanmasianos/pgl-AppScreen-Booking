@@ -8,6 +8,8 @@ export const colors = {
     discountText: '#1A743E',
 
     headerButtons: '#0D459A',
-    searchButton: '#006CE3'
+    searchButton: '#006CE3',
+
+    borderColor: '#E7E7E7'
 
 }
