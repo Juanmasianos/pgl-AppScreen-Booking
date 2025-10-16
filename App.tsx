@@ -1,14 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Header from './components/header/Header';
+import Body from './components/body/Body';
 
 
 export default function App() {
   return (
     <>
       <Header />
-      <View style={styles.body}>
-      </View>
+      <Body  />
       <View style={styles.footer}>
       </View>
     </>
@@ -16,10 +16,7 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  body: {
-    flex: 5,
-    backgroundColor: '#fff',
-  },
+
   footer: {
     flex: 1,
     backgroundColor: '#fff',
