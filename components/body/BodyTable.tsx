@@ -16,7 +16,7 @@ export default function () {
       </View>
       <View style={styles.tableContent}>
         <Ionicons name="person-outline" size={24} color="black" />
-        <Text style={styles.tableText}>1 room - 2 adults • 0 children</Text>
+        <Text style={styles.tableText}>1 room • 2 adults • 0 children</Text>
       </View>
       <View>
         <Pressable style={styles.tableButton}><Text style={styles.buttonText}>Search</Text></Pressable>
