@@ -14,7 +14,7 @@ export default function HeaderBackground() {
 
 const styles = StyleSheet.create({
   header: {
-    flex: 4,
+    flex: 3,
     backgroundColor: colors.primary
   },
 });

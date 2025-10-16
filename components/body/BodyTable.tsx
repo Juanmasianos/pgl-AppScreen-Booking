@@ -19,7 +19,7 @@ export default function () {
         <Text style={styles.tableText}>1 room - 2 adults • 0 children</Text>
       </View>
       <View>
-        <Pressable style={styles.tableButton}><Text>Search</Text></Pressable>
+        <Pressable style={styles.tableButton}><Text style={styles.buttonText}>Search</Text></Pressable>
       </View>
     </View>
   )
@@ -53,7 +53,14 @@ const styles = StyleSheet.create({
         backgroundColor: colors.searchButton,
         borderBottomLeftRadius: 5,
         borderBottomRightRadius: 5,
-        padding: 10,
+        padding: 10
+    },
+    buttonText: {
+
+      textAlign: 'center',
+      fontWeight: 'bold',
+      color: 'white'
+
     }
 
 })

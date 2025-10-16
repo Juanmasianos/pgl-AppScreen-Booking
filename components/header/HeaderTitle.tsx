@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     flex: 3,
     color: '#fff',
     textAlign: 'center',
-    marginTop: 50,
+    marginTop: 30,
     marginLeft: 120,
     marginRight: 50,
     fontSize: 20,
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column'
   },
   icons: {  
-    marginTop: 50,
+    marginTop: 30,
     flexDirection: 'column',
     flex: 1
   }

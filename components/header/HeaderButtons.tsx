@@ -39,7 +39,7 @@ export default function HeaderButtons() {
 const styles = StyleSheet.create({
     container: {
 
-        marginTop: 40,
+        marginTop: 20,
         marginLeft: 20
 
     },

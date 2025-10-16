@@ -19,8 +19,8 @@ const styles = StyleSheet.create({
     container: {
         borderColor: colors.borderColor,
         borderWidth: 1,
-        margin: 20,
-        padding: 5, 
+        margin: 20, 
+        marginTop: 10,
         flexDirection: 'row',
         flexWrap: 'nowrap'
     },
