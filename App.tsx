@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Header from './components/header/Header';
 import Body from './components/body/Body';
+import Footer from './components/footer/Footer';
 
 
 export default function App() {
@@ -9,18 +10,8 @@ export default function App() {
     <>
       <Header />
       <Body  />
-      <View style={styles.footer}>
-      </View>
+      <Footer />
     </>
   );
 }
 
-const styles = StyleSheet.create({
-
-  footer: {
-    flex: 1,
-    backgroundColor: '#fff',
-    borderTopColor: '#000',
-    borderTopWidth: 1
-  },
-});
