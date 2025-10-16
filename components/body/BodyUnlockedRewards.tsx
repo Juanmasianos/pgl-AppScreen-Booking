@@ -19,26 +19,28 @@ const styles = StyleSheet.create({
     container: {
         borderColor: colors.borderColor,
         borderWidth: 1,
-        margin: 20, 
+        marginLeft: 20, 
+        marginRight: 20,
+        marginBottom: 10,
         marginTop: 10,
         flexDirection: 'row',
         flexWrap: 'nowrap'
     },
     rewardsImage: {
-        width: 50,
-        height: 50
+        width: 40,
+        height: 40
 
     },
     text: {
 
         fontSize: 18,
-        marginTop: 15
+        marginTop: 10
 
     },
     arrowIcon: {
 
         marginLeft: 60,
-        marginTop: 15,
+        marginTop: 10,
 
     }
 })
