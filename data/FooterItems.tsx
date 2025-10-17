@@ -19,6 +19,6 @@ export const footerItems : FooterItem[] = [
     {
         key: '4',
         picture: require("../assets/profile_picture.jpg"),
-        title: "Saved"
+        title: "My account"
     }
 ]
